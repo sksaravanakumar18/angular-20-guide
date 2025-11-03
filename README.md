@@ -205,6 +205,14 @@ If you encounter any issues or have questions:
 2. 🆕 Create a new issue with detailed information
 3. 📝 Include your environment details (Node.js version, OS, Angular CLI version)
 
+### Common Issues
+
+#### 404 Error on GitHub Pages
+If you encounter a 404 error when accessing routes directly:
+- The deployment script automatically creates a `404.html` file to handle client-side routing
+- If the issue persists, redeploy using: `npm run deploy`
+- GitHub Pages may take a few minutes to update after deployment
+
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
